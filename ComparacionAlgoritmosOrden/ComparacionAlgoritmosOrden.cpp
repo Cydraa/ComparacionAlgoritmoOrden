@@ -102,17 +102,17 @@ int main()
         {
             dimension = (t + 1) * INCREMENTO;
 
-            if (a == RAPIDO || a == MEZCLA)
-            {
-                --dimension;
-            }
-
             suma = nanoseconds(0);
             promedio = nanoseconds(0);
 
             std::cout << ">> Algoritmo " << nombresAlgoritmo[a] << endl;
             std::cout << ">> Procesando datos de la lista de dimension " << (t + 1) * INCREMENTO << "..." << endl;
             datos[0][t] = dimension; //Asignacion de la fila de etiquetas
+
+            if (a == RAPIDO || a == MEZCLA)
+            {
+                --dimension;
+            }
 
             // 6) Bucle de pruebas
             for (int p = 1; p <= NUM_PRUEBAS; p++)
