@@ -160,6 +160,9 @@ int main()
         InsercionTiempos.close();
     }
 
+    delete[] listaNumerosAleatorios;
+    delete[] datos;
+
     system("pause");
     return 0;
 }
