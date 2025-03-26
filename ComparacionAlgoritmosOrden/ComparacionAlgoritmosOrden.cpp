@@ -119,7 +119,7 @@ int main()
             {
                 //Copia de la lista de numeros original
                 int* copiaLista = new int[MAX_TAMANO];
-                memcpy(copiaLista, listaNumerosAleatorios[t], dimension);
+                memcpy(copiaLista, listaNumerosAleatorios[t], dimension*sizeof(int));
 
 
                 //Medicion del algorimo
