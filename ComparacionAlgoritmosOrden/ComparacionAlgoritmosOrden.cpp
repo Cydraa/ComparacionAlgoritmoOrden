@@ -3,6 +3,7 @@
 #include <cstdlib>
 #include <chrono>
 #include <vector>
+#include <cstring>
 
 #include "FuncionesAuxiliares.hpp"
 #include "AlgoritmosOrden.hpp"
@@ -97,7 +98,7 @@ int main()
     {
         system("cls");
 
-        // 5) Bucle de tamaño
+        // 5) Bucle de tamaÃ±o
         for (int t = 0; t < (MAX_TAMANO / INCREMENTO); ++t)
         {
             dimension = (t + 1) * INCREMENTO;
