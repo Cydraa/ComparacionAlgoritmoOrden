@@ -79,6 +79,9 @@ void Mezclar(int s[], int inicio, int medio, int fin)
         k++;
     }
 
+    delete[] L;
+    delete[] R;
+
 }
 
 int Particion(int s[], int inicio, int fin)
