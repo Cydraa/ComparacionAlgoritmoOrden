@@ -49,7 +49,7 @@ Secuencia utilizada:
 * Compilador g++
 * Visual Studio 2022 (para Windows)
 
-> [!CAUTION]
+> [!WARNING]
 > El programa fué escrito en una computadora con sistema operativo Windows 11, es posible que algunas instrucciones arrojen una advertencia en Linux.
 
 ## Instrucciones de compilación
