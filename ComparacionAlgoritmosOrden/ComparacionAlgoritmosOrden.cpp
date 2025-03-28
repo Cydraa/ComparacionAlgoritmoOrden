@@ -13,11 +13,11 @@ using namespace std::chrono;
 
 using fn = void(int[], int, int);
 
-#define MIN_TAMANO 10
-#define MAX_TAMANO 1000 // Columnas
-#define NUM_PRUEBAS 1000 // Filas
-#define INCREMENTO 10
-#define NUM_ALGORITMOS 8
+#define MIN_TAMANO 10 // Tamaño mínimo del arreglo
+#define MAX_TAMANO 1000 // Tamaño máximo del arreglo
+#define NUM_PRUEBAS 1000 // Número de pruebas 
+#define INCREMENTO 10 // Incremento del tamaño del arreglo
+#define NUM_ALGORITMOS 8 // Número de algoritmos
 
 
 int main()

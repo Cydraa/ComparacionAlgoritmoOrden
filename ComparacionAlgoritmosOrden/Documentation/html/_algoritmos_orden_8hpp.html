@@ -1,0 +1,501 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.13.2"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Evaluaci&oacute;n de la eficiencia de los algoritmos de ordenamiento: Referencia del archivo C:/Users/GamerHouse/Documents/0_UNISON/Matematicas Discretas/ComparacionAlgoritmoOrden/ComparacionAlgoritmosOrden/AlgoritmosOrden.hpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+  $(function() { init_search(); });
+/* @license-end */
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Evaluaci&oacute;n de la eficiencia de los algoritmos de ordenamiento
+   </div>
+   <div id="projectbrief">Este programa compara los tiempos de ejecuci&oacute;n de ocho algoritmos de ordenamiento. Elaborado por Ana Paulina Sortill&oacute;n Sortill&oacute;n.</div>
+  </td>
+    <td>        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <span id="MSearchSelect"                onmouseover="return searchBox.OnSearchSelectShow()"                onmouseout="return searchBox.OnSearchSelectHide()">&#160;</span>
+          <input type="text" id="MSearchField" value="" placeholder="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.svg" alt=""/></a>
+          </span>
+        </div>
+</td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.13.2 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('_algoritmos_orden_8hpp.html',''); initResizable(true); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Cargando...</div>
+<div class="SRStatus" id="Searching">Buscando...</div>
+<div class="SRStatus" id="NoMatches">Nada coincide</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="summary">
+<a href="#enum-members">Enumeraciones</a> &#124;
+<a href="#func-members">Funciones</a>  </div>
+  <div class="headertitle"><div class="title">Referencia del archivo C:/Users/GamerHouse/Documents/0_UNISON/Matematicas Discretas/ComparacionAlgoritmoOrden/ComparacionAlgoritmosOrden/AlgoritmosOrden.hpp</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p><a href="_algoritmos_orden_8hpp_source.html">Ir al código fuente de este archivo.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
+Enumeraciones</h2></td></tr>
+<tr class="memitem:a62e0303d650e9be1fd7ce52a4046d622" id="r_a62e0303d650e9be1fd7ce52a4046d622"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a62e0303d650e9be1fd7ce52a4046d622">algoritmos</a> { <br />
+&#160;&#160;<a class="el" href="#a62e0303d650e9be1fd7ce52a4046d622a3e935a6d992e66be622ff6663f748189">INSERCION</a>
+, <a class="el" href="#a62e0303d650e9be1fd7ce52a4046d622adcbd9d24363e710d670f125a609ddd06">BURBUJA</a>
+, <a class="el" href="#a62e0303d650e9be1fd7ce52a4046d622a22fe9891b05ead1cfdd3583651e15f58">BURBUJA_OPTIMIZADO</a>
+, <a class="el" href="#a62e0303d650e9be1fd7ce52a4046d622a77ea0b37464551079c546aba1b7cc413">SELECCION</a>
+, <br />
+&#160;&#160;<a class="el" href="#a62e0303d650e9be1fd7ce52a4046d622aad797cc2b02f7a7144c22ff08f396e54">SHELL</a>
+, <a class="el" href="#a62e0303d650e9be1fd7ce52a4046d622a7e6e29a559f9f66d6c80e5d7d36d28bb">HEAP</a>
+, <a class="el" href="#a62e0303d650e9be1fd7ce52a4046d622ac0f1fe9252d7aac43d7d3ba8941c5f1d">RAPIDO</a>
+, <a class="el" href="#a62e0303d650e9be1fd7ce52a4046d622acd00377baee38d5c9d3f711e9ab22b1e">MEZCLA</a>
+<br />
+ }</td></tr>
+<tr class="separator:a62e0303d650e9be1fd7ce52a4046d622"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Funciones</h2></td></tr>
+<tr class="memitem:ab8e016e4e02ff33c732dfc6aef3fa465" id="r_ab8e016e4e02ff33c732dfc6aef3fa465"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ab8e016e4e02ff33c732dfc6aef3fa465">OrdenamientoPorInsercion</a> (int s[], int inicio, int n)</td></tr>
+<tr class="memdesc:ab8e016e4e02ff33c732dfc6aef3fa465"><td class="mdescLeft">&#160;</td><td class="mdescRight">Algoritmo de Ordenamiento por Inserci&oacute;n.  <br /></td></tr>
+<tr class="separator:ab8e016e4e02ff33c732dfc6aef3fa465"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a576c58698167acb8a477b85311870dfd" id="r_a576c58698167acb8a477b85311870dfd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a576c58698167acb8a477b85311870dfd">OrdenamientoBurbuja</a> (int s[], int inicio, int n)</td></tr>
+<tr class="memdesc:a576c58698167acb8a477b85311870dfd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Algoritmo de Ordenamiento por Burbuja.  <br /></td></tr>
+<tr class="separator:a576c58698167acb8a477b85311870dfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa82195614b9a9a5073bf7ad9effcc8a3" id="r_aa82195614b9a9a5073bf7ad9effcc8a3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa82195614b9a9a5073bf7ad9effcc8a3">OrdenamientoBurbujaOptimizado</a> (int s[], int inicio, int n)</td></tr>
+<tr class="memdesc:aa82195614b9a9a5073bf7ad9effcc8a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Algoritmo de Ordenamiento por Burbuja Optimizado.  <br /></td></tr>
+<tr class="separator:aa82195614b9a9a5073bf7ad9effcc8a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa7b7a3da6b96268d123c7aaa1e362a3" id="r_afa7b7a3da6b96268d123c7aaa1e362a3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afa7b7a3da6b96268d123c7aaa1e362a3">OrdenamientoSeleccion</a> (int s[], int inicio, int n)</td></tr>
+<tr class="memdesc:afa7b7a3da6b96268d123c7aaa1e362a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Algoritmo de Ordenamiento por Selecci&oacute;n.  <br /></td></tr>
+<tr class="separator:afa7b7a3da6b96268d123c7aaa1e362a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23bdcc492acd10b757615a55d2685d44" id="r_a23bdcc492acd10b757615a55d2685d44"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a23bdcc492acd10b757615a55d2685d44">OrdenamientoShell</a> (int s[], int inicio, int n)</td></tr>
+<tr class="memdesc:a23bdcc492acd10b757615a55d2685d44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Algoritmo de Ordenamiento por Inserci&oacute;n con intervalos decrecientes (Shell Sort)  <br /></td></tr>
+<tr class="separator:a23bdcc492acd10b757615a55d2685d44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7c8a6faff51219ae0eef6548cd55b81" id="r_af7c8a6faff51219ae0eef6548cd55b81"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af7c8a6faff51219ae0eef6548cd55b81">OrdenamientoHeap</a> (int s[], int inicio, int n)</td></tr>
+<tr class="memdesc:af7c8a6faff51219ae0eef6548cd55b81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Algoritmo de Ordenamiento Heap (O mont&iacute;culo)  <br /></td></tr>
+<tr class="separator:af7c8a6faff51219ae0eef6548cd55b81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73d68eebce917464f231cb19361dd4b5" id="r_a73d68eebce917464f231cb19361dd4b5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a73d68eebce917464f231cb19361dd4b5">OrdenamientoRapido</a> (int s[], int inicio, int fin)</td></tr>
+<tr class="memdesc:a73d68eebce917464f231cb19361dd4b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Algoritmo de Ordenamiento R&aacute;pido (Quick Sort)  <br /></td></tr>
+<tr class="separator:a73d68eebce917464f231cb19361dd4b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a512cdec055081569f86a0c8599138a69" id="r_a512cdec055081569f86a0c8599138a69"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a512cdec055081569f86a0c8599138a69">OrdenamientoMezcla</a> (int s[], int inicio, int fin)</td></tr>
+<tr class="memdesc:a512cdec055081569f86a0c8599138a69"><td class="mdescLeft">&#160;</td><td class="mdescRight">Algoritmo de Ordenamiento Mezcla (Merge Sort)  <br /></td></tr>
+<tr class="separator:a512cdec055081569f86a0c8599138a69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Documentación de enumeraciones</h2>
+<a id="a62e0303d650e9be1fd7ce52a4046d622" name="a62e0303d650e9be1fd7ce52a4046d622"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62e0303d650e9be1fd7ce52a4046d622">&#9670;&#160;</a></span>algoritmos</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="#a62e0303d650e9be1fd7ce52a4046d622">algoritmos</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>ALGORITMOS DE ORDENAMIENTO </p>
+<table class="fieldtable">
+<tr><th colspan="2">Valores de enumeraciones</th></tr><tr><td class="fieldname"><a id="a62e0303d650e9be1fd7ce52a4046d622a3e935a6d992e66be622ff6663f748189" name="a62e0303d650e9be1fd7ce52a4046d622a3e935a6d992e66be622ff6663f748189"></a>INSERCION&#160;</td><td class="fielddoc"><p>Algoritmo de Ordenamiento por Inserci&oacute;n. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a62e0303d650e9be1fd7ce52a4046d622adcbd9d24363e710d670f125a609ddd06" name="a62e0303d650e9be1fd7ce52a4046d622adcbd9d24363e710d670f125a609ddd06"></a>BURBUJA&#160;</td><td class="fielddoc"><p>Algoritmo de Ordenamiento por Burbuja. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a62e0303d650e9be1fd7ce52a4046d622a22fe9891b05ead1cfdd3583651e15f58" name="a62e0303d650e9be1fd7ce52a4046d622a22fe9891b05ead1cfdd3583651e15f58"></a>BURBUJA_OPTIMIZADO&#160;</td><td class="fielddoc"><p>Algoritmo de Ordenamiento por Burbuja Optimizado. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a62e0303d650e9be1fd7ce52a4046d622a77ea0b37464551079c546aba1b7cc413" name="a62e0303d650e9be1fd7ce52a4046d622a77ea0b37464551079c546aba1b7cc413"></a>SELECCION&#160;</td><td class="fielddoc"><p>Algoritmo de Ordenamiento por Selecci&oacute;n. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a62e0303d650e9be1fd7ce52a4046d622aad797cc2b02f7a7144c22ff08f396e54" name="a62e0303d650e9be1fd7ce52a4046d622aad797cc2b02f7a7144c22ff08f396e54"></a>SHELL&#160;</td><td class="fielddoc"><p>Algoritmo de Ordenamiento por Inserci&oacute;n con intervalos decrecientes (Shell Sort) </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a62e0303d650e9be1fd7ce52a4046d622a7e6e29a559f9f66d6c80e5d7d36d28bb" name="a62e0303d650e9be1fd7ce52a4046d622a7e6e29a559f9f66d6c80e5d7d36d28bb"></a>HEAP&#160;</td><td class="fielddoc"><p>Algoritmo de Ordenamiento por Montiacute;culos (Heap Sort) </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a62e0303d650e9be1fd7ce52a4046d622ac0f1fe9252d7aac43d7d3ba8941c5f1d" name="a62e0303d650e9be1fd7ce52a4046d622ac0f1fe9252d7aac43d7d3ba8941c5f1d"></a>RAPIDO&#160;</td><td class="fielddoc"><p>Algoritmo de Ordenamiento R&aacute;pido (Quick Sort) </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a62e0303d650e9be1fd7ce52a4046d622acd00377baee38d5c9d3f711e9ab22b1e" name="a62e0303d650e9be1fd7ce52a4046d622acd00377baee38d5c9d3f711e9ab22b1e"></a>MEZCLA&#160;</td><td class="fielddoc"><p>Algoritmo de Ordenamiento Mezcla (Merge Sort) </p>
+</td></tr>
+</table>
+
+</div>
+</div>
+<h2 class="groupheader">Documentación de funciones</h2>
+<a id="a576c58698167acb8a477b85311870dfd" name="a576c58698167acb8a477b85311870dfd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a576c58698167acb8a477b85311870dfd">&#9670;&#160;</a></span>OrdenamientoBurbuja()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OrdenamientoBurbuja </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>s</em></span>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>inicio</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>n</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Algoritmo de Ordenamiento por Burbuja. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">s[]</td><td>Arreglo de enteros. </td></tr>
+    <tr><td class="paramname">inicio</td><td>&Iacute;ndice del arreglo inicial. </td></tr>
+    <tr><td class="paramname">n</td><td>Dimensi&oacute;n del arreglo. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>Nada. </dd></dl>
+
+</div>
+</div>
+<a id="aa82195614b9a9a5073bf7ad9effcc8a3" name="aa82195614b9a9a5073bf7ad9effcc8a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa82195614b9a9a5073bf7ad9effcc8a3">&#9670;&#160;</a></span>OrdenamientoBurbujaOptimizado()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OrdenamientoBurbujaOptimizado </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>s</em></span>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>inicio</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>n</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Algoritmo de Ordenamiento por Burbuja Optimizado. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">s[]</td><td>Arreglo de enteros. </td></tr>
+    <tr><td class="paramname">inicio</td><td>&Iacute;ndice del arreglo inicial. </td></tr>
+    <tr><td class="paramname">n</td><td>Dimensi&oacute;n del arreglo. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>Nada. </dd></dl>
+
+</div>
+</div>
+<a id="af7c8a6faff51219ae0eef6548cd55b81" name="af7c8a6faff51219ae0eef6548cd55b81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7c8a6faff51219ae0eef6548cd55b81">&#9670;&#160;</a></span>OrdenamientoHeap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OrdenamientoHeap </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>s</em></span>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>inicio</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>n</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Algoritmo de Ordenamiento Heap (O mont&iacute;culo) </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">s[]</td><td>Arreglo de enteros. </td></tr>
+    <tr><td class="paramname">inicio</td><td>&Iacute;ndice del arreglo inicial. </td></tr>
+    <tr><td class="paramname">n</td><td>Dimensi&oacute;n del arreglo. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>Nada. </dd></dl>
+
+</div>
+</div>
+<a id="a512cdec055081569f86a0c8599138a69" name="a512cdec055081569f86a0c8599138a69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a512cdec055081569f86a0c8599138a69">&#9670;&#160;</a></span>OrdenamientoMezcla()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OrdenamientoMezcla </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>s</em></span>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>inicio</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>fin</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Algoritmo de Ordenamiento Mezcla (Merge Sort) </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">s[]</td><td>Arreglo de enteros. </td></tr>
+    <tr><td class="paramname">inicio</td><td>&Iacute;ndice del arreglo inicial. </td></tr>
+    <tr><td class="paramname">fin</td><td>&Iacute;ndice del arreglo final. Es el tama�o del arreglo-1. </td></tr>
+    <tr><td class="paramname">n</td><td>Dimensi&oacute;n del arreglo. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>Nada. </dd></dl>
+
+</div>
+</div>
+<a id="ab8e016e4e02ff33c732dfc6aef3fa465" name="ab8e016e4e02ff33c732dfc6aef3fa465"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8e016e4e02ff33c732dfc6aef3fa465">&#9670;&#160;</a></span>OrdenamientoPorInsercion()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OrdenamientoPorInsercion </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>s</em></span>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>inicio</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>n</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Algoritmo de Ordenamiento por Inserci&oacute;n. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">s[]</td><td>Arreglo de enteros. </td></tr>
+    <tr><td class="paramname">inicio</td><td>&Iacute;ndice del arreglo inicial. </td></tr>
+    <tr><td class="paramname">n</td><td>Dimensi&oacute;n del arreglo. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>Nada. </dd></dl>
+
+</div>
+</div>
+<a id="a73d68eebce917464f231cb19361dd4b5" name="a73d68eebce917464f231cb19361dd4b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73d68eebce917464f231cb19361dd4b5">&#9670;&#160;</a></span>OrdenamientoRapido()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OrdenamientoRapido </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>s</em></span>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>inicio</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>fin</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Algoritmo de Ordenamiento R&aacute;pido (Quick Sort) </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">s[]</td><td>Arreglo de enteros. </td></tr>
+    <tr><td class="paramname">inicio</td><td>&Iacute;ndice del arreglo inicial. </td></tr>
+    <tr><td class="paramname">fin</td><td>&Iacute;ndice del arreglo final. Es el tama�o del arreglo-1. </td></tr>
+    <tr><td class="paramname">n</td><td>Dimensi&oacute;n del arreglo. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>Nada. </dd></dl>
+
+</div>
+</div>
+<a id="afa7b7a3da6b96268d123c7aaa1e362a3" name="afa7b7a3da6b96268d123c7aaa1e362a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa7b7a3da6b96268d123c7aaa1e362a3">&#9670;&#160;</a></span>OrdenamientoSeleccion()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OrdenamientoSeleccion </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>s</em></span>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>inicio</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>n</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Algoritmo de Ordenamiento por Selecci&oacute;n. </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">s[]</td><td>Arreglo de enteros. </td></tr>
+    <tr><td class="paramname">inicio</td><td>&Iacute;ndice del arreglo inicial. </td></tr>
+    <tr><td class="paramname">n</td><td>Dimensi&oacute;n del arreglo. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>Nada. </dd></dl>
+
+</div>
+</div>
+<a id="a23bdcc492acd10b757615a55d2685d44" name="a23bdcc492acd10b757615a55d2685d44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23bdcc492acd10b757615a55d2685d44">&#9670;&#160;</a></span>OrdenamientoShell()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OrdenamientoShell </td>
+          <td>(</td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>s</em></span>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>inicio</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int</td>          <td class="paramname"><span class="paramname"><em>n</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Algoritmo de Ordenamiento por Inserci&oacute;n con intervalos decrecientes (Shell Sort) </p>
+<dl class="params"><dt>Parámetros</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">s[]</td><td>Arreglo de enteros. </td></tr>
+    <tr><td class="paramname">inicio</td><td>&Iacute;ndice del arreglo inicial. </td></tr>
+    <tr><td class="paramname">n</td><td>Dimensi&oacute;n del arreglo. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Devuelve</dt><dd>Nada. </dd></dl>
+
+</div>
+</div>
+</div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="_algoritmos_orden_8hpp.html">AlgoritmosOrden.hpp</a></li>
+    <li class="footer">Generado por <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.13.2 </li>
+  </ul>
+</div>
+</body>
+</html>
