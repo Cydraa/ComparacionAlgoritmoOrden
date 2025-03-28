@@ -49,6 +49,9 @@ Secuencia utilizada:
 * Compilador g++
 * Visual Studio 2022 (para Windows)
 
+> [!CAUTION]
+> El programa fué escrito en una computadora con sistema operativo Windows 11, es posible que algunas instrucciones arrojen una advertencia en Linux.
+
 ## Instrucciones de compilación
 ### Linux
 1. Clone el repositorio:
