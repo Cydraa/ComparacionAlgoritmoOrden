@@ -35,7 +35,14 @@ Secuencia utilizada:
 * Documentation/html: Contiene los archivos necesarios para abrir la documentación de Doxygen.
 * Doxygen: Archivo de formato para Doxygen.
 * Imagenes: Contiene los gráficos comparativos de los algoritmos para Linux y Windows 11.
-* **Documentacion.lnk : Documentación del código fuente.**
+* **<ins>Documentacion.lnk : Documentación del código fuente.</ins>**
+
+## Archivos de código
+* AlgoritmosOrden.hpp : Prototipos de las funciones de ordenamiento.
+* FuncionesAuxiliares.hpp: Prototipos de las funciones auxiliares.
+* ComparacionAlgoritmosOrden.cpp : Código fuente principal.
+* AlgoritmosOrden.cpp : Definiciones de los algoritmos de ordenamiento.
+*  FuncionesAuxiliares.cpp: Definiciones de las funciones auxiliares.
   
 ## Requisitos del sistema
 * C++ 20
