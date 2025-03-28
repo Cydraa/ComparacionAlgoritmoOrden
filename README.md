@@ -84,7 +84,8 @@ El programa se ejecutó de manera exitosa en dos sistemas operativos: Linux Cach
 
 En conclusion, en los algoritmos menos eficientes se puede observar un comportamiento del tipo cuadratico. Mientras que en los tres mas rapidos, el comportamiento es logarítmico.
 
-![Sistema Operativo](https://img.shields.io/badge/Sistema%20Operativo%20-%20CachyOS-pink) ![CPU](https://img.shields.io/badge/CPU%20-%20AMD%20Ryzen%205%205600G-green)
+![Sistema Operativo](https://img.shields.io/badge/Sistema%20Operativo%20-%20CachyOS-pink) ![CPU](https://img.shields.io/badge/CPU%20-%20Intel%20Core%20i5--8365U-orange
+)
 ![Gráfica comparativa de algoritmos de ordenamiento en Linux](ComparacionAlgoritmosOrden/Imagenes/GraficoComparativoAlgoritmos_Linux.png)
 
 ![Sistema Operativo](https://img.shields.io/badge/Sistema%20Operativo%20-%20Windows%2011-blue) ![CPU](https://img.shields.io/badge/CPU%20-%2011th%20Gen%20Intel(R)%20Core(TM)%20i7%2011700F-purple)
